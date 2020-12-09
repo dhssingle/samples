@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{30236D01-8254-47DF-A3D3-538F65BF2CCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apiversionsample", "src\apiversionsample\apiversionsample.csproj", "{763E873F-BDA7-451E-A8C4-538B8AF5D17C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apiversionsample", "src\apiversionsample\apiversionsample.csproj", "{763E873F-BDA7-451E-A8C4-538B8AF5D17C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "src\SignalRChat\SignalRChat.csproj", "{7B6CADF1-30CC-4727-854C-3BEDE4017F70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRChat", "src\SignalRChat\SignalRChat.csproj", "{7B6CADF1-30CC-4727-854C-3BEDE4017F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "todoapi", "src\todoapi\todoapi.csproj", "{58417D70-5087-4C0F-B41C-75147C96D2D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "todoapi", "src\todoapi\todoapi.csproj", "{58417D70-5087-4C0F-B41C-75147C96D2D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT", "src\JWT\JWT.csproj", "{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{763E873F-BDA7-451E-A8C4-538B8AF5D17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -60,10 +59,29 @@ Global
 		{58417D70-5087-4C0F-B41C-75147C96D2D3}.Release|x64.Build.0 = Release|Any CPU
 		{58417D70-5087-4C0F-B41C-75147C96D2D3}.Release|x86.ActiveCfg = Release|Any CPU
 		{58417D70-5087-4C0F-B41C-75147C96D2D3}.Release|x86.Build.0 = Release|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Debug|x64.Build.0 = Debug|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Debug|x86.Build.0 = Debug|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Release|x64.ActiveCfg = Release|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Release|x64.Build.0 = Release|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Release|x86.ActiveCfg = Release|Any CPU
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{763E873F-BDA7-451E-A8C4-538B8AF5D17C} = {30236D01-8254-47DF-A3D3-538F65BF2CCA}
 		{7B6CADF1-30CC-4727-854C-3BEDE4017F70} = {30236D01-8254-47DF-A3D3-538F65BF2CCA}
 		{58417D70-5087-4C0F-B41C-75147C96D2D3} = {30236D01-8254-47DF-A3D3-538F65BF2CCA}
+		{80BB59EB-98C3-4572-8FE2-4BA51E3B04A3} = {30236D01-8254-47DF-A3D3-538F65BF2CCA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7040120F-68C0-41F6-9C28-E909C0C03A6E}
 	EndGlobalSection
 EndGlobal
