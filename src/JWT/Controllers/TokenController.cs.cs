@@ -20,10 +20,6 @@ namespace JWT.Controllers
             var secret = "v8x/A?D(G+KbPeShVmYq3t6w9z$B&E)H@McQfTjWnZr4u7x!A%D*F-JaNdRgUkXp";
             var key = Encoding.UTF8.GetBytes(secret);
             var secretKey = new SymmetricSecurityKey(key);
-            if(secretKey.Key.SequenceEqual(key))
-            {
-                var x = 1;
-            }
             var issuer = "https://localhost:5001";
             var audience = "https://localhost:5001";
 
