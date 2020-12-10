@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace DependencyInjectionLifetime
 {
+    // 代码来自 https://docs.microsoft.com/zh-cn/dotnet/core/extensions/dependency-injection-usage
     class Program
     {
         static Task Main(string[] args)
