@@ -15,7 +15,7 @@ namespace DependencyInjectionLifetime
 
             ExemplifyScoping(host.Services, "Scope 1");
             ExemplifyScoping(host.Services, "Scope 2");
-            ExemplifyScoping(host.Services, "Scope 3");
+            //ExemplifyScoping(host.Services, "Scope 3");
 
             //return host.RunAsync();
             return Task.CompletedTask;
