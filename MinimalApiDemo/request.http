@@ -1,0 +1,32 @@
+GET http://localhost:8081/hello HTTP/1.1
+
+###
+GET http://localhost:8081/hello/1 HTTP/1.1
+
+###
+GET http://localhost:8081/header HTTP/1.1
+Content-Type: application/json
+
+###
+POST http://localhost:8081/person HTTP/1.1
+Content-Type: application/json
+
+{
+    "id":"29129cf0-aa23-49a5-ad65-d5d6ac4227df",
+    "firstName":"三",
+    "lastName":"张",
+    "age":100,
+    "gender":"female"
+}
+
+###
+GET http://localhost:8081/person/29129cf0-aa23-49a5-ad65-d5d6ac4227df HTTP/1.1
+
+###
+PUT  http://localhost:8081/person/29129cf0-aa23-49a5-ad65-d5d6ac4227df HTTP/1.1
+
+###
+DELETE  http://localhost:8081/person/29129cf0-aa23-49a5-ad65-d5d6ac4227df HTTP/1.1
+
+###
+GET http://localhost:8081/foo HTTP/1.1
